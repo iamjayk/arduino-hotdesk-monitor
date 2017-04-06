@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Ultrasonic Desk Monitor Dashboard</title>
+      <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <div class='container'>
+        <div class='header'>
+          <img src="" alt="">
+          <h1>Ultrasonic Dashboard</h1>
+        </div>
+       <!--h4>CREATE/UPDATE</h4-->
+      <form id='reviewForm'>
+        <!--input type="hidden" id='hiddenId' />
+          <input type="text" id='date' />
+          <br/>
+          <p id ="Timestamp"></p>
+          <textarea id='time'></textarea>
+          <br/>
+          <br/-->
+          <button type='submit' onclick="reloadPage()">Refresh</button>
+        </form>
+        <br/>
+        <h4>Firebase Data </h4>
+        <ul id='reviews'></ul>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+      <script src="main.js"></script>
+      <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    </body>
+</html>
