@@ -1,6 +1,7 @@
 # IoT
 IoT Projects in Here
-# 1] Desk Monitoring System 
+# 1] Desk Monitoring System:    Ultrasonic Sensor Data Dashboard URL: https://ajayk800.github.io/IoT/JavaScriptFirebase_SensorDataDashboard/
+
 A Desk Monitoring Device which uses the following Components:
 Arduino Nano as its main component, an Ultrasonic Sensor to detect Range,
 an nRF24L01 to Transmit and Receive the Ultrasonic Sensor Data on a Raspberry Pi connected with another Arduino Nano + nRF24L01
