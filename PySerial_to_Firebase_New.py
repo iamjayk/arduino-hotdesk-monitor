@@ -33,7 +33,7 @@ while 1:
                     'Time': time_hhmmss, 'US 01': status}
             result = requests.post(
                 firebase_url + '/' + '/ultrasonic.json', data=json.dumps(data))
-
+            
             print 'Record inserted.'
             time.sleep(fixed_interval)
 
