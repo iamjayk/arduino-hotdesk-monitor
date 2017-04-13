@@ -20,8 +20,7 @@ while 1:
 
         if "Y" in ultrasonic_v:
             status = "PRESENT"
-
-        elif "N" in ultrasonic_v:
+        else:
             status = "AWAY"
 
         # Print Current Value
@@ -30,16 +29,16 @@ while 1:
         # insert record
         if "US 01" in ultrasonic_v:
             data = {'Date': date_mmddyyyy,
-                    'Time': time_hhmmss, 'US 01': status}
+                    'Time': time_hhmmss, 'US01': status}
             result = requests.post(
                 firebase_url + '/' + '/ultrasonic.json', data=json.dumps(data))
-            
+
             print 'Record inserted.'
             time.sleep(fixed_interval)
 
         elif "US 02" in ultrasonic_v:
             data = {'Date': date_mmddyyyy,
-                    'Time': time_hhmmss, 'US 02': status}
+                    'Time': time_hhmmss, 'US02': status}
             result = requests.post(
                 firebase_url + '/' + '/ultrasonic.json', data=json.dumps(data))
 
