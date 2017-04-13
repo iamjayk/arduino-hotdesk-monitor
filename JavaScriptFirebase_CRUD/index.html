@@ -1,34 +1,63 @@
 <!doctype html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Ultrasonic Desk Monitor Dashboard</title>
-      <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-      <div class='container'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+
+    <title>Ultrasonic Desk Monitor Dashboard</title>
+
+</head>
+<body>
+
+<br>
+    <div class='container'>
         <div class='header'>
-          <img src="" alt="">
-          <h1>Ultrasonic Dashboard</h1>
+            <img src="" alt="">
+            <h1>Ultrasonic Dashboard</h1>
         </div>
-       <!--h4>CREATE/UPDATE</h4-->
-      <form id='reviewForm'>
-        <!--input type="hidden" id='hiddenId' />
-          <input type="text" id='date' />
-          <br/>
-          <p id ="Timestamp"></p>
-          <textarea id='time'></textarea>
-          <br/>
-          <br/-->
-          <button type='submit' onclick="reloadPage()">Refresh</button>
-        </form>
+            <body onload="pageLoad()" style="margin:0;">
+                <div id="loader"></div>
+                <div style="display:none;" id="myDiv" class="animate-bottom">
+
+                    <ul id='reviews'>
+                      <table class="table table-responsive" id="firebaseTable">
+                        <thead class="thead-inverse">
+                      <tr>
+                        <td>Unit #</td>
+                        <td>Current Status</td>
+                        <td>Date</td>
+                        <td>Time</td>
+                        <td>Weekly Time at Desk</td>
+                      </tr>
+                      <tr>
+                        <td>US 01</td>
+                        <td id="Unit1"></td>
+                        <td id="date1"></td>
+                        <td id="time1"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>US 02</td>
+                        <td id="Unit2"></td>
+                        <td id="date2"></td>
+                        <td id="time2"></td>
+                        <td></td>
+                      </tr>
+                    </table>
+                    </ul>
+                </div>
         <br/>
-        <h4>Firebase Data </h4>
-        <ul id='reviews'></ul>
-      </div>
-      <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
-      <script src="main.js"></script>
-      <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
     </body>
+
 </html>
