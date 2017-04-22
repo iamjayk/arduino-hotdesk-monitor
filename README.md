@@ -4,7 +4,7 @@
 
 ## Desk Monitoring System 
 [Real-Time Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/) 	<br>
-Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki) [![Inline docs](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME}.svg?branch=master)](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME})
+Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki)
 
 ### DESCRIPTION 
 The Desk Monitoring System is a device which detects a person or an object's presence on a desk and reports the status as **Present** or **Away** to a remote Database. 
