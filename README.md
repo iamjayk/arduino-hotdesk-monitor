@@ -1,10 +1,26 @@
-# IoT
-IoT Projects in Here  
+# IoT Projects
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 
-### 1] Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/)
-## [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
-
-
+## Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/)
+### Introduction
+A Desk Monitoring Device which Detects if a person or an object is present on a desk and reports the status as **Present** or **Away** to a remote Database. 
+A Front-End Displays this Data from Database with Real-time updates.
+### Components Used
+Arduino Nano																						
+Ultrasonic Sensor																												
+nRF24L01 																										
+Raspberry Pi																								
+### Programming Languages and Technologies used
+C			
+C++		
+Python		
+#### Front-End Dashboard
+HTML5		
+CSS3		
+JavaScript, jQuery	
+Bootstrap
+#### Database used
+NoSQL: Google Firebase
 
 A Desk Monitoring Device which uses the following Components:
 Arduino Nano as its main component, an Ultrasonic Sensor to detect Range,
