@@ -1,6 +1,6 @@
 # IoT
 IoT Projects in Here  
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 
 ### 1] Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/)
 
