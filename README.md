@@ -3,7 +3,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 [![PyPI](https://img.shields.io/pypi/status/Django.svg)]()
 
-## Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/) [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?style=plastic)](#)
+## Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/) [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?style=plastic)](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/)
 ### Introduction
 A Desk Monitoring Device which Detects if a person or an object is present on a desk and reports the status as **Present** or **Away** to a remote Database. 
 A Front-End Displays this Data from Database with Real-time updates.
