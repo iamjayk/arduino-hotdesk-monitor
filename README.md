@@ -19,10 +19,9 @@ A Front-End Dashboard Displays this Data from Database with Real-time updates.
 - C++		    
 - Python		
 #### Database
-NoSQL: Google Firebase
+- NoSQL: Google Firebase
 #### Front-End Dashboard
-HTML5		
-CSS3		
-JavaScript, jQuery	
-Bootstrap
-
+- HTML5		
+- CSS3		
+- JavaScript, jQuery	
+- Bootstrap
