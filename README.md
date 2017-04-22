@@ -4,6 +4,7 @@
 
 ## Desk Monitoring System 
 [Temporary Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/index.html) [Updating-soon-With-Awesome-One] <br>
+[Upcoming-IoT-Dashboard](https://ajayk800.github.io/IoTDashboard/)
 Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki)
 
 ### DESCRIPTION 
