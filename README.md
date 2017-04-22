@@ -1,10 +1,9 @@
 
 # IoT Projects
-[![Waffle.io](https://img.shields.io/waffle/label/evancohen/smart-mirror/in%20progress.svg)](https://github.com/ajayk800/IoT)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 [![PyPI](https://img.shields.io/pypi/status/Django.svg)]()
 
-## Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/)
+## Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/) [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?style=plastic)]()
 ### Introduction
 A Desk Monitoring Device which Detects if a person or an object is present on a desk and reports the status as **Present** or **Away** to a remote Database. 
 A Front-End Displays this Data from Database with Real-time updates.
@@ -16,6 +15,7 @@ A Front-End Displays this Data from Database with Real-time updates.
 - Raspberry Pi 3 b : [Model Details](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)	
 
 ### Programming Languages and Technologies Used
+[![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]() <br>
 C			
 C++		
 Python		
