@@ -2,8 +2,8 @@
 # IoT Projects
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 
-## PROJECT NAME 
-Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/) 	<br>
+## Desk Monitoring System 
+: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/) 	<br>
 Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki)
 ### DESCRIPTION 
 The Desk Monitoring System is a device which detects a person or an object's presence on a desk and reports the status as **Present** or **Away** to a remote Database. 
