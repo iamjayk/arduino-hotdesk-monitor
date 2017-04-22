@@ -9,8 +9,8 @@ A Front-End Displays this Data from Database with Real-time updates.
 ### Components Used
 - Arduino Nano  : [Details](https://www.arduino.cc/en/Main/ArduinoBoardNano)														
 - Ultrasonic Sensor	: [Datasheet](http://www.electroschematics.com/8902/hc-sr04-datasheet/)																							
-- nRF24L01 																										
-- Raspberry Pi	
+- nRF24L01 : [Info](https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo)																								
+- Raspberry Pi 3 b : [Model Details](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)	
 
 ### Programming Languages and Technologies used
 C			
