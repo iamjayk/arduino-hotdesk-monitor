@@ -1,4 +1,6 @@
+
 # IoT Projects
+[![Waffle.io](https://img.shields.io/waffle/label/evancohen/smart-mirror/in%20progress.svg)](https://github.com/ajayk800/IoT)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 
 ## Desk Monitoring System: [Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/)
@@ -24,7 +26,7 @@ CSS3
 JavaScript, jQuery	
 Bootstrap
 
-
+### How it Works? 
 A Desk Monitoring Device which uses the following Components:
 Arduino Nano as its main component, an Ultrasonic Sensor to detect Range,
 an nRF24L01 to Transmit and Receive the Ultrasonic Sensor Data on a Raspberry Pi connected with another Arduino Nano + nRF24L01
