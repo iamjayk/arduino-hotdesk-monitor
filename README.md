@@ -5,12 +5,13 @@
 ### Introduction
 A Desk Monitoring Device which Detects if a person or an object is present on a desk and reports the status as **Present** or **Away** to a remote Database. 
 A Front-End Displays this Data from Database with Real-time updates.
+
 ### Components Used
-<img src="http://static.arduino.org/media/k2/galleries/82/A000005-Arduino-Nano-2tri.jpg" alt="alt text" width="300" height="250">	
 - Arduino Nano  : [Details](https://www.arduino.cc/en/Main/ArduinoBoardNano)														
 - Ultrasonic Sensor	: [Datasheet](http://www.electroschematics.com/8902/hc-sr04-datasheet/)																							
 - nRF24L01 																										
-- Raspberry Pi																								
+- Raspberry Pi	
+
 ### Programming Languages and Technologies used
 C			
 C++		
