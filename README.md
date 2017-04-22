@@ -3,7 +3,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 
 ## Desk Monitoring System 
-[Updating-soon][Real-Time Dashboard Link](#) 	<br>
+[Updating-soon-With-Awesome-One] [Temporary Dashboard Link](https://ajayk800.github.io/IoT/JavaScriptFirebase_CRUD/index.html) 	<br>
 Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki)
 
 ### DESCRIPTION 
