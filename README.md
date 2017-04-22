@@ -16,13 +16,14 @@ A Front-End Displays this Data from Database with Real-time updates.
 C			
 C++		
 Python		
+#### Database
+NoSQL: Google Firebase
 #### Front-End Dashboard
 HTML5		
 CSS3		
 JavaScript, jQuery	
 Bootstrap
-#### Database used
-NoSQL: Google Firebase
+
 
 A Desk Monitoring Device which uses the following Components:
 Arduino Nano as its main component, an Ultrasonic Sensor to detect Range,
