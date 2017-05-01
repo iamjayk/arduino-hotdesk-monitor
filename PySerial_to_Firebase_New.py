@@ -3,7 +3,7 @@ import time
 import datetime
 import requests
 import json
-firebase_url = 'https://ultrasonicfirebase.firebaseio.com/'
+firebase_url = 'https://ultrasonicfirebase.firebaseio.com/'     # Your firebase Database Link
 # Connect to Serial Port for communication
 ser = serial.Serial('COM8', 115200, timeout=0)                       # ('/dev/ttyUSB0', 115200, timeout=0) if RasPi Port upperRight/ WHATEVER COM PORT the device is connected to
 # Setup a loop to send Temperature values at fixed intervals
@@ -11,7 +11,7 @@ ser = serial.Serial('COM8', 115200, timeout=0)                       # ('/dev/tt
 fixed_interval = 3
 while 1:
     try:
-        # temperature value obtained from Arduino + LM35 Temp Sensor
+        # Ultrasonic Distance value obtained and converted from Arduino + HC-SR04 Sensor
         ultrasonic_v = ser.readline()
 
         # current time and date
