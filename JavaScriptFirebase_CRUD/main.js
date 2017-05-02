@@ -1,10 +1,10 @@
 var config = {
-    apiKey: "",
+    apiKey: "AIzaSyC5bXNboOwc8KQKaq-S-ROq02Wsxt_FHSA",
     authDomain: "ultrasonicfirebase.firebaseapp.com",
     databaseURL: "https://ultrasonicfirebase.firebaseio.com",
     projectId: "ultrasonicfirebase",
     storageBucket: "ultrasonicfirebase.appspot.com",
-    messagingSenderId: ""
+    messagingSenderId: "890017485189"
   };
 
 firebase.initializeApp(config);
