@@ -5,8 +5,8 @@ import requests
 import json
 firebase_url = 'https://ultrasonicfirebase.firebaseio.com/'     # Your firebase Database Link
 # Connect to Serial Port for communication
-ser = serial.Serial('COM8', 115200, timeout=0)                       # ('/dev/ttyUSB0', 115200, timeout=0) if RasPi Port upperRight/ WHATEVER COM PORT the device is connected to
-# Setup a loop to send Temperature values at fixed intervals
+ser = serial.Serial('COM8', 115200, timeout=0)                       # WHATEVER COM PORT the device is connected to
+# Setup a loop to send Sensor values at fixed intervals
 # in seconds
 fixed_interval = 3
 while 1:
