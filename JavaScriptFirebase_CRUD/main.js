@@ -1,11 +1,11 @@
 var config = {
-    apiKey: "AIzaSyC5bXNboOwc8KQKaq-S-ROq02Wsxt_FHSA",
-    authDomain: "ultrasonicfirebase.firebaseapp.com",
-    databaseURL: "https://ultrasonicfirebase.firebaseio.com",
-    projectId: "ultrasonicfirebase",
-    storageBucket: "ultrasonicfirebase.appspot.com",
-    messagingSenderId: "890017485189"
-  };
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+  };                                                                // YOUR FIREBASE DETAILS
 
 firebase.initializeApp(config);
 var db = firebase.database();
