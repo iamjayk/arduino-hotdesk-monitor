@@ -3,7 +3,7 @@ import time
 import datetime
 import requests
 import json
-firebase_url = 'https://ultrasonicfirebase.firebaseio.com/'     # Your firebase Database Link
+firebase_url = ''     # Your firebase Database Link within quotes
 # Connect to Serial Port for communication
 ser = serial.Serial('COM8', 115200, timeout=0)                       # WHATEVER COM PORT the device is connected to
 # Setup a loop to send Sensor values at fixed intervals
