@@ -18,7 +18,7 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 - Raspberry Pi 3 b : [Model Details](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)	
 <br>
 <br>
-![DM1](https://raw.github.com/ajayk800/IoT/master/screenshots/DM_Components.png)
+![DM](https://raw.github.com/ajayk800/IoT/master/screenshots/DM_Components.png)
 
 
 ### PROGRAMMING LANGUAGES & TECHNOLOGIES USED
