@@ -4,6 +4,7 @@
 
 ## Desk Monitoring System 
 [IoT-Dashboard](https://ajayk800.github.io/IoTDashboard/) <br>
+![Dashboard](https://raw.github.com/ajayk800/IoT/master/Screenshots/IoT_Dashboard.png)
 
 Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki)
 
