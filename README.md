@@ -4,7 +4,6 @@
 
 ## Desk Monitoring System 
 [IoT-Dashboard](https://ajayk800.github.io/IoTDashboard/) <br><br>
-![Dashboard](https://raw.github.com/ajayk800/IoT/master/screenshots/IoT_Dashboard.png)
 
 Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki)
 
@@ -29,3 +28,5 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 - CSS3		
 - JavaScript, jQuery	
 - Bootstrap
+
+![Dashboard](https://raw.github.com/ajayk800/IoT/master/screenshots/IoT_Dashboard.png)
