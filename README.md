@@ -17,8 +17,6 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 - nRF24L01 : [Info](https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo)		
 - Raspberry Pi 3 b : [Model Details](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)	
 ![DM](https://raw.github.com/ajayk800/IoT/master/screenshots/DM_Components.png)
-<br/>
-
 
 ### PROGRAMMING LANGUAGES & TECHNOLOGIES USED
 - C			
