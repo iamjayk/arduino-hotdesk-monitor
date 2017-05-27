@@ -23,6 +23,9 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 - Python		
 #### Database
 - NoSQL: Google Firebase
+![FB1](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase1.png)
+![FB2](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase2.png)
+
 #### Front-End Dashboard
 - HTML5		
 - CSS3		
