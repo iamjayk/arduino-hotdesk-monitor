@@ -22,7 +22,7 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 - C++		    
 - Python		
 #### Database
-- NoSQL: Google Firebase <br/>
+- NoSQL: Google Firebase <br/><br/>
 ![FB1](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase1.png)
 ![FB2](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase2.png)
 
