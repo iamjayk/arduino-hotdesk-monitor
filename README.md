@@ -13,19 +13,11 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 
 ### COMPONENTS USED  
 - Arduino Nano  : [Details](https://www.arduino.cc/en/Main/ArduinoBoardNano)	
-
-![NANO](https://raw.github.com/ajayk800/IoT/master/screenshots/ARDUINO_NANO.jpg)
-
 - Ultrasonic Sensor	: [Datasheet](http://www.electroschematics.com/8902/hc-sr04-datasheet/)
-
-![NANO](https://raw.github.com/ajayk800/IoT/master/screenshots/HC-SR04.jpg)
-
 - nRF24L01 : [Info](https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo)		
-
-
 - Raspberry Pi 3 b : [Model Details](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)	
-
-
+![NANO](https://raw.github.com/ajayk800/IoT/master/screenshots/ARDUINO_NANO.jpg)
+![NANO](https://raw.github.com/ajayk800/IoT/master/screenshots/HC-SR04.jpg)
 
 ### PROGRAMMING LANGUAGES & TECHNOLOGIES USED
 - C			
