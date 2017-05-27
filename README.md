@@ -3,7 +3,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#)
 
 ## Desk Monitoring System 
-[IoT-Dashboard](https://ajayk800.github.io/IoTDashboard/) <br>
+                  [IoT-Dashboard](https://ajayk800.github.io/IoTDashboard/) <br>
 ![Dashboard](https://raw.github.com/ajayk800/IoT/master/screenshots/IoT_Dashboard.png)
 
 Complete Information and Technical Details on [Wiki](https://github.com/ajayk800/IoT/wiki)
