@@ -27,6 +27,8 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 ![FB1](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase1.png)
 ![FB2](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase2.png)
 
+- Firebase REST API (Python, Javascript)
+
 #### Front-End Dashboard
 - HTML5		
 - CSS3		
