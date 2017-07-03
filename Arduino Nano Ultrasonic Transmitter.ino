@@ -1,34 +1,34 @@
 // --------------------------------------------------------------------------------------------------------------
 // Arduino Sketch for Measuring Distance and Transmitting Data using Ultrasonic ranger and nRF24L01 Module Resp.  
-// Written By: Ajay
+// Written By: Ajay Kumar
 // --------------------------------------------------------------------------------------------------------------
-#include <NewPing.h>  // Newping Library for Ultrasonic Sensor
+#include <NewPing.h>  // Newping Library for HC-SR04
 #include <SPI.h>      // Serial Peripheral Interface Library for Short Distance Communication
 #include <nRF24L01.h> // nRF24L01 Library
 #include <RF24.h>     // RF24 Library
 
-#define TRIGGER_PIN  4  // Arduino pin tied to trigger pin on the ultrasonic sensor.
-#define ECHO_PIN     3  // Arduino pin tied to echo pin on the ultrasonic sensor.
-#define MAX_DISTANCE 200 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
+#define TRIGGER_PIN  4  // Arduino D4 ---- HC-SR04 Trigger Pin
+#define ECHO_PIN     3  // Arduino D3 ---- HC-SR04 ECHO Pin
+#define MAX_DISTANCE 200 // Maximum distance (in centimeters).
 
 RF24 radio(7, 8); // Radio Pins D7, D8
-const byte rxAddr[6] = "00001"; // Receiving Arduino with nRF24L01 Address
+const byte rxAddr[6] = "00001"; // Receiver Node Address
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
 
 void setup() {
   Serial.begin(115200); // Open serial monitor at 115200 baud to see ping results.
   radio.begin();                        // Start Radio on Sender Device
-  radio.setRetries(15, 15);             // Retries for Transmission
+  radio.setRetries(15, 15);             
   radio.openWritingPipe(rxAddr);        // Open a pipe for writing with receiving address
-  radio.stopListening();                // Stop the Radio Listening  
+  radio.stopListening();                  
 }
 
 void loop () {
-  delay (50);                    // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings.
+  delay (50);                    
   unsigned int uS = sonar.ping(); // Send ping, get ping time in microseconds (uS).
   unsigned int dist = uS / US_ROUNDTRIP_CM; // Convert ping time to distance in cm and print result (0 = outside set distance range) 
-  const char yes[] = "Y";         // Constant character declaration         
-  const char no[] = "N";          // Constant character declaration
+  const char yes[] = "Y";              
+  const char no[] = "N";          
   String deviceName = String("US 01: ");
   String statusValue = "DEFAULT";
   
