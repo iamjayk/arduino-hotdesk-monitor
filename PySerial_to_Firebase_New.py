@@ -1,3 +1,8 @@
+#
+# Store the Receiving Unit's Data to Firebase Database in Real-time 
+# Using Google Firebase REST API | Python-Firebase Library
+#
+
 import serial
 import time
 import datetime
