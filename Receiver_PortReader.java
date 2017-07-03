@@ -1,3 +1,5 @@
+// Read Receiver Node's Serial Port Data 
+
 import java.io.*;
 import java.util.*;
 import javax.comm.*;
