@@ -5,7 +5,7 @@ import requests
 import json
 firebase_url = ''     # Your firebase Database Link within quotes
 # Connect to Serial Port for communication
-ser = serial.Serial('COM8', 115200, timeout=0)                       # WHATEVER COM PORT the device is connected to
+ser = serial.Serial('COM8', 115200, timeout=0)                       # Receiving Node COM PORT
 # Setup a loop to send Sensor values at fixed intervals
 # in seconds
 fixed_interval = 3
