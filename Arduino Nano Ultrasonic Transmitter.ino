@@ -1,5 +1,6 @@
 // --------------------------------------------------------------------------------------------------------------
-// Arduino Sketch for Measuring Distance and Transmitting Data using Ultrasonic ranger and nRF24L01 Module Resp.  // Sender
+// Arduino Sketch for Measuring Distance and Transmitting Data using Ultrasonic ranger and nRF24L01 Module Resp.  
+// Written By: Ajay
 // --------------------------------------------------------------------------------------------------------------
 #include <NewPing.h>  // Newping Library for Ultrasonic Sensor
 #include <SPI.h>      // Serial Peripheral Interface Library for Short Distance Communication
