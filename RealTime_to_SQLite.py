@@ -1,3 +1,7 @@
+# 
+# Store The Receiver Unit's Data to SQLite Database Locally
+#
+
 import serial
 import time
 
