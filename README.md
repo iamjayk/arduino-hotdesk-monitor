@@ -18,16 +18,30 @@ A Front-End Dashboard Displays this Information from Database with Real-time upd
 - Raspberry Pi 3 b : [Model Details](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)	
 ![DM](https://raw.github.com/ajayk800/IoT/master/screenshots/DM_Components.png)
 
+#### Repository File Structure
+
+##### Main Arduino Programs for Sensing/transmitting data 
+- Desk_Monitor_MainNode.ino       
+- Receiving_MainNode.ino
+
+##### Python Programs for storing data to Firebase | SQLite from receiving Arduino Unit
+- RealTime_Firebase_Uploader.py
+- RealTime_to_SQLite.py
+
+##### Java Program for Reading Data from receiving Arduino Unit
+- receiverPortReader.java
+
+
 ### PROGRAMMING LANGUAGES & TECHNOLOGIES USED
-- C			
-- C++		    
+- C	| C++ Functions		
 - Python		
+
 #### Database
-- NoSQL: Google Firebase <br/><br/>
+- NoSQL: Google Firebase 
+- Firebase REST API (Python, Javascript) <br/><br/>
 ![FB1](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase1.png)
 ![FB2](https://raw.github.com/ajayk800/IoT/master/screenshots/Firebase2.png)
 
-- Firebase REST API (Python, Javascript)
 
 #### Front-End Dashboard
 - HTML5		
