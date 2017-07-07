@@ -35,6 +35,6 @@ void loop () {
   else {
     char val[] = "US 01: N";
     radio.write(&val, 8); // Else Transmit character N to the Receiving Arduino
-//    Serial.println(val);
+///    Serial.println(val);
   }
 }
