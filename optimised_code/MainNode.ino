@@ -9,7 +9,7 @@
 #define ECHO_PIN     3  // Arduino D3 ---- HC-SR04 ECHO Pin
 #define MAX_DISTANCE 60 // Maximum distance (in centimeters).
 
-NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
+NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); 
 
 RF24 radio(7, 8); // Radio Pins D7, D8
 const byte rxAddr[6] = "00001"; // Receiver Node Address
@@ -24,17 +24,17 @@ void setup() {
 
 void loop () {
   delay(2000);
-  unsigned int uS = sonar.ping(); // Send ping, get ping time in microseconds (uS).
-  unsigned int dist = uS / US_ROUNDTRIP_CM; // Convert ping time to distance in cm and print result (0 = outside set distance range)
+  unsigned int uS = sonar.ping(); // Send ping, get ping time in microseconds.
+  unsigned int dist = uS / US_ROUNDTRIP_CM; // Convert ping time to distance in cm.
 
-  if (dist > 0 && dist <= MAX_DISTANCE) {    // If the measured distance from ultrasonic sensor is greater than zero and less than 60cms Transmit character Y to the receiving arduino
+  if (dist > 0 && dist <= MAX_DISTANCE) {    // If the measured distance is > 0 < 60 : Transmit Y
     char val[] = "US 01: Y";
-    radio.write(&val, 8); // Writes 1 payload to the buffers
+    radio.write(&val, 8); 
 //    Serial.println(val);
   }
-  else {
+  else {                                  // Else Transmit N
     char val[] = "US 01: N";
-    radio.write(&val, 8); // Else Transmit character N to the Receiving Arduino
-///    Serial.println(val);
+    radio.write(&val, 8); 
+//    Serial.println(val);
   }
 }
