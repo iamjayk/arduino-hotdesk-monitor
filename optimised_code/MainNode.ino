@@ -15,7 +15,7 @@ RF24 radio(7, 8); // Radio Pins D7, D8
 const byte rxAddr[6] = "00001"; // Receiver Node Address
 
 void setup() {
-  Serial.begin(115200); // Open serial monitor at 115200 baud to see ping results.
+//  Serial.begin(115200); // Open serial monitor at 115200 baud to see ping results.
   radio.begin();                        // Start Radio on Sender Device
   radio.setRetries(15, 15);
   radio.openWritingPipe(rxAddr);        // Open a pipe for writing with receiving address
@@ -30,11 +30,11 @@ void loop () {
   if (dist > 0 && dist <= MAX_DISTANCE) {    // If the measured distance from ultrasonic sensor is greater than zero and less than 60cms Transmit character Y to the receiving arduino
     char val[] = "US 01: Y";
     radio.write(&val, 8); // Writes 1 payload to the buffers
-    Serial.println(val);
+//    Serial.println(val);
   }
   else {
     char val[] = "US 01: N";
     radio.write(&val, 8); // Else Transmit character N to the Receiving Arduino
-    Serial.println(val);
+//    Serial.println(val);
   }
 }
